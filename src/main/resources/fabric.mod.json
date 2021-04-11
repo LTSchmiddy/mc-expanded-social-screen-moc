@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "expanded-social-screen",
+  "version": "0.0.1",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Expanded Social Screen",
+  "description": "Expands Minecraft's social interaction screen to access features such as direct messaging by wrapping around various chat commands.",
   "authors": [
-    "Me!"
+    "LT_Schmiddy"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/LTSchmiddy/",
+    "sources": "https://github.com/LTSchmiddy/mc-expanded-social-screen-mod"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.lt_schmiddy.expandedsocialscreen.ModEntry"
     ]
   },
   "mixins": [
