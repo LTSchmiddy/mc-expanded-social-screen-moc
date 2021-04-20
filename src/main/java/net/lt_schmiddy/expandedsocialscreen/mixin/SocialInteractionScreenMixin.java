@@ -20,7 +20,7 @@ public abstract class SocialInteractionScreenMixin extends Screen {
 		//TODO Auto-generated constructor stub
 	}
 
-	@Inject(at = @At("HEAD"), method = "init()V")
+	@Inject(at = @At("HEAD"), method = "init")
 	private void mod_init(CallbackInfo info) {
 		// this.width *= 2;
 	}
